@@ -9,7 +9,7 @@ const Main = () => {
     <div>
       <main className='w-full relative'>
         <Image className='h-screen w-full' alt='bg' height={900} width={1000} src={mainbg} />
-        <main className='flex items-center justify-center animate-in fade-in-200'>
+        <main className='flex items-center justify-center'>
           <div className='flex flex-col absolute top-56 items-center gap-5 justify-center'>
             <h2 className='md:text-4xl text-3xl font-semibold text-custom-pink uppercase '>Monogram</h2>
             <h1 className='md:text-6xl text-5xl font-semibold text-custom-pink text-center uppercase'>Creative Console</h1>
