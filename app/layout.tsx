@@ -4,8 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { FaCameraRetro } from "react-icons/fa";
 import { useEffect, useState } from "react";
-// import AOS from 'aos';
-import AOS from 'aos'
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
