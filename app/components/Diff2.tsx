@@ -9,8 +9,9 @@ import essential from '@/app/asset/essential.webp'
 const Diff2 = () => {
      return (
           <div className='bg-custom-purple w-full tracking-widest   text-white'>
-               <main className='items-center flex flex-col gap-8 py-20'>
-                    <h2 className='text-3xl md:text-4xl text-center font-semibold uppercase'>Next level productivity starts here.</h2>
+               <main  data-aos="fade-up"
+     data-aos-duration="3000" className='items-center flex flex-col gap-8 py-20'>
+                    <h2  className='text-3xl md:text-4xl text-center font-semibold uppercase'>Next level productivity starts here.</h2>
                     <h2 className='text-3xl md:text-4xl font-semibold uppercase'>Meet each module</h2>
                </main>
                <div className='flex md:hidden flex-col items-center gap-20'>
@@ -67,7 +68,7 @@ const Diff2 = () => {
 
                     <main className='flex gap-10'>
                          <Image className='h-96 w-56' alt='img' width={500} height={500} src={monocore} />
-                         <div className='flex flex-col gap-5 justify-center'>
+                         <div  data-aos="fade-up" data-aos-duration="3000" className='flex flex-col gap-5 justify-center'>
                               <h2 className='text-3xl font-semibold uppercase'>Monogram Core</h2>
                               <span className='w-[400px] text-custom-pink'>The Core powers and connects Creative Console to your PC or Mac.
                                    Fast and smooth performance with two mechanical keys for switching and previewing the consoles functionality</span>
@@ -75,7 +76,7 @@ const Diff2 = () => {
                     </main>
 
                     <main className='flex gap-10 items-center'>
-                         <div className='flex flex-col gap-5 justify-center'>
+                         <div data-aos="fade-up" data-aos-duration="3000" className='flex flex-col gap-5 justify-center'>
                               <h2 className='text-3xl font-semibold uppercase'>Orbitor</h2>
                               <span className='w-[400px] text-custom-pink'>The Core powers and connects Creative Console to your PC or Mac.
                                    Fast and smooth performance with two mechanical keys for switching and previewing the consoles functionality</span>
@@ -85,7 +86,7 @@ const Diff2 = () => {
 
                     <main className='flex gap-10 items-center'>
                          <Image className='h-96 w-56' alt='img' width={500} height={500} src={dial} />
-                         <div className='flex flex-col gap-5 justify-center'>
+                         <div data-aos="fade-up" data-aos-duration="3000" className='flex flex-col gap-5 justify-center'>
                               <h2 className='text-3xl font-semibold uppercase'>Dial</h2>
                               <span className='w-[400px] text-custom-pink'>The Core powers and connects Creative Console to your PC or Mac.
                                    Fast and smooth performance with two mechanical keys for switching and previewing the consoles functionality</span>
@@ -93,7 +94,7 @@ const Diff2 = () => {
                     </main>
 
                     <main className='flex gap-10 items-center'>
-                         <div className='flex flex-col gap-5 justify-center'>
+                         <div data-aos="fade-up" data-aos-duration="3000" className='flex flex-col gap-5 justify-center'>
                               <h2 className='text-3xl font-semibold uppercase'>slider</h2>
                               <span className='w-[400px] text-custom-pink'>The Core powers and connects Creative Console to your PC or Mac.
                                    Fast and smooth performance with two mechanical keys for switching and previewing the consoles functionality</span>
@@ -103,7 +104,7 @@ const Diff2 = () => {
 
                     <main className='flex gap-10 items-center'>
                          <Image className='h-96 w-56' alt='img' width={500} height={500} src={essential} />
-                         <div className='flex flex-col gap-5 justify-center'>
+                         <div data-aos="fade-up" data-aos-duration="3000" className='flex flex-col gap-5 justify-center'>
                               <h2 className='text-3xl font-semibold uppercase'>essential keys</h2>
                               <span className='w-[400px] text-custom-pink'>The Core powers and connects Creative Console to your PC or Mac.
                                    Fast and smooth performance with two mechanical keys for switching and previewing the consoles functionality</span>
@@ -122,7 +123,7 @@ const Diff2 = () => {
                          </div>
                          <Image className='w-28 h-28 md:h-[370px] md:w-[370px]' alt='img' width={350} height={200} src={slider} />
                     </div>
-                    <div className='flex flex-col items-center text-center gap-5 py-20'>
+                    <div data-aos="zoom-in" data-aos-duration="3000" className='flex flex-col items-center text-center gap-5 py-20'>
                          <h2 className='md:text-3xl text-2xl font-semibold'>Trust the Quality, Love the Look</h2>
                          <p className='w-full md:w-[900px] text-custom-pink tracking-widest'>Creatives spend hours editing and their tools should withstand every minute. That’s why each module is made from the highest quality materials including CNC-machined aluminum,
                               neodymium magnets and gold-plated connections that will not only look beautiful on your desk but will also last.</p>

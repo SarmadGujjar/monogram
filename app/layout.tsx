@@ -3,7 +3,10 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { FaCameraRetro } from "react-icons/fa";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+// import AOS from 'aos';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 
 const geistSans = localFont({
@@ -26,7 +29,15 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
+
+  
 }>) {
+
+  useEffect(() =>{
+    AOS.init();
+  }, []);
+
+
   const [open, setOpen] = useState<boolean>();
   return (
     <html lang="en">
